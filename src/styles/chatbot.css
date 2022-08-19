@@ -3,7 +3,10 @@
     ##################################################  */
 
     .saludo_bot {
-        position: fixed;
+        /* position: fixed; */
+        position: absolute!important;
+        left: 0px!important;
+        top: 0px!important;
         bottom: 20px;
         right: 0px;
         z-index: 100;
@@ -17,7 +20,6 @@
         cursor: pointer;
         padding-right: 10px;
         padding-left: 10px;
-        top: 0px!important;
       }
       
       .saludo_bot:hover {
