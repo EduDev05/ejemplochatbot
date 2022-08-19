@@ -17,7 +17,7 @@
         cursor: pointer;
         padding-right: 10px;
         padding-left: 10px;
-        top: 0px;
+        top: 0px!important;
       }
       
       .saludo_bot:hover {
