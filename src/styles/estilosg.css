@@ -140,7 +140,10 @@ body {
       ####      Estilo del llamado del bot          ####
       ##################################################  */
   .saludo_bot {
-    position: fixed;
+    position: absolute!important;
+    left: 0px!important;
+    top: 0px!important;
+    /* position: fixed; */
     bottom: 20px;
     right: 0px;
     z-index: 100;
