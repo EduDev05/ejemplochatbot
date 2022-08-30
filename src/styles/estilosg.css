@@ -193,6 +193,9 @@ body {
   }
   
   .bot_mensaje {
+    position: absolute!important;
+    left: 0px!important;
+    top: 0px!important;
     transition: right 0.6s;
     margin-top: 10px;
     margin-left: 10px;
@@ -210,6 +213,9 @@ body {
   }
   
   .bot {
+    position: absolute!important;
+    left: 0px!important;
+    top: 0px!important;
     margin-top: 5px;
     float: left;
     width: 70px;
@@ -294,6 +300,9 @@ body {
         opacity: 0;
         visibility: hidden; */
         /* nuevos */
+        position: absolute!important;
+        left: 0px!important;
+        top: 0px!important;
         opacity: 0;
         visibility: hidden;
 
@@ -306,8 +315,8 @@ body {
         /* opacity: 1;  */
         /* visibility: visible;  */
         /* bottom: 10px; */
-        width: 360px;
-        height: 227px;
+        width: 400px;
+        height: 250px;
         background: white;
         /* opacity: 1; 
         visibility: visible; 
