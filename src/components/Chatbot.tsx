@@ -64,34 +64,40 @@ export const Chatbot = () => {
         //fin base
 
         //inicio nuestro    /// que es igual a  call_api_directline
-        const rawResponse = await fetch("https://mkt-tec-dev-webapi.azurewebsites.net/DirectLine", {
-            method: 'POST',
-            headers: {
-                'Accept': 'application/json',
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify({
-                userId: "dd",
-                name: "elnombrequesea"
-            })
-        });
-        const content = await rawResponse.json();
-        console.log("elcontentw", content)
+        // const rawResponse = await fetch("https://mkt-tec-dev-webapi.azurewebsites.net/DirectLine", {
+        //     method: 'POST',
+        //     headers: {
+        //         'Accept': 'application/json',
+        //         'Content-Type': 'application/json'
+        //     },
+        //     body: JSON.stringify({
+        //         userId: "dd",
+        //         name: "elnombrequesea"
+        //     })
+        // });
+        // const content = await rawResponse.json();
+        // console.log("elcontentw", content)
 
-        let objjs = JSON.parse(content)
+        // let objjs = JSON.parse(content)
 
-        let token = objjs.token
-        let conversationId = objjs.conversationId
+        // let token = objjs.token
+        // let conversationId = objjs.conversationId
 
         //fin nuestro
 
         // Creando DirectLine
         //    this.token_resp = await this.call_api_directline(this.correo).toPromise();
+        let secret;
         let directLine = window.WebChat.createDirectLine({
-            token: token,
-            conversationStartProperties:{
-                locale: 'es-mx'
-            }
+            // token: token,
+            // conversationStartProperties:{
+            //     locale: 'es-mx'
+            // }
+            secret: "ev9a-rAQj3o.ijy-Ta2nSPjVUPyhDS-kMN8WW314TzDkR7JnwZwICu8",
+            conversationStartProperties: {
+              locale: 'es-mx',
+              user: {}
+            },  
         });
         // pruebas
         // const adaptiveCardsHostConfig = token.adaptiveCardsHostConfig;
@@ -265,7 +271,7 @@ export const Chatbot = () => {
 
         // console.log("eladaptiveCardsHostConfig", adaptiveCardsHostConfig)
         console.log("elstore", store)
-        console.log("eltoken67", token)
+        // console.log("eltoken67", token)
 
         // Enviando información del usuario y renderizando el bot
         window.WebChat.renderWebChat(
