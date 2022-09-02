@@ -5,9 +5,11 @@ import {Chatbot} from './components/Chatbot';
 import './styles/estilosg.css';
 
 function App() {
+
+  console.log("domino", document.domain);
   return (
     <div >
-<Chatbot/>
+      <Chatbot/>
     </div>
   );
 }
