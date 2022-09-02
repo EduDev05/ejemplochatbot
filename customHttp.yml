@@ -1,0 +1,16 @@
+applications:
+  - appRoot: app1
+    customHeaders:
+    - pattern: '**https://pruebachat--tecmonterreymxqa.myvtex.com/,
+      https://tecmonterreymx.myvtex.com/,
+      https://tecmonterreymx.myvtexqa.com/*'
+      headers:
+      - key: 'custom-header-name-1'
+        value: 'custom-header-value-1'
+  - appRoot: app2
+    customHeaders:
+    - pattern: '/path/*.json'
+      headers:
+      - key: 'custom-header-name-2'
+        value: 'custom-header-value-2'
+
