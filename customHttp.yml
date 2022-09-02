@@ -1,5 +1,5 @@
 applications:
-  - appRoot: ejemplochatbot
+  - appRoot: pruebachatbot
     customHeaders:
     - pattern: '**https://pruebachat--tecmonterreymxqa.myvtex.com/,
       https://tecmonterreymx.myvtex.com/,
