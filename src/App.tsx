@@ -5,7 +5,7 @@ import {Chatbot} from './components/Chatbot';
 import './styles/estilosg.css';
 
 function App() {
-
+   document.domain="pruebachat--tecmonterreymxqa.myvtex.com";
   console.log("domino", document.domain);
   return (
     <div >
