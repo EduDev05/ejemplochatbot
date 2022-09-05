@@ -332,18 +332,19 @@ body {
       }
   
       .webchat {
-        height: 213px;
         opacity: 1;
-        visibility: visible;
+        /* visibility: visible; */
         transition: opacity 0.6s, visibility 0.6s;
         position:absolute;
         display: flex;
         flex-direction: row;
-        height: 213px;
+        height: 250px;
         width: 360px;
         top: 20px;
         bottom: 5px;
         left: 250px;
+        cursor: default !important;
+        visibility: hidden;
       }
   
   
