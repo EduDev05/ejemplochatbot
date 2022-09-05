@@ -434,9 +434,9 @@ export const Chatbot = () => {
                             <i style={{ display: "inlineBlock", verticalAlign: "middle" }} className="material-icons">tag_faces</i>
 
                         </button>
-                        <button className="btn_encabezado" id="btn_chbot_cerrar">
+                        {/* <button className="btn_encabezado" id="btn_chbot_cerrar">
                             <i style={{ display: "inlineBlock", verticalAlign: "middle" }} className="material-icons">close</i>
-                        </button>
+                        </button> */}
                     </div>
                     <div className="webchat" id="webchat" ref={textInput} role="main">hola mundo</div>
                     {/* <div className="webchat" role="main" /> */}

@@ -180,7 +180,8 @@ body {
     opacity: 1;
     visibility: visible;
     bottom: 10px;
-    width: 400px;
+    /* width: 400px; */
+    width: 361px;
     height: 250px;
     background: white;
 }
