@@ -14,8 +14,8 @@ function App() {
   //   // Send a success message to https://parent.example.com
   //   event.source.postMessage('succeeded', event.origin);
   // });
-
-
+  const visible = window.toolbar.visible;
+  console.log("window.toolbar.visible", visible);
   //  document.domain="pruebachat--tecmonterreymxqa.myvtex.com";
   console.log("domino", document.domain);
   return (
