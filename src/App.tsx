@@ -18,8 +18,8 @@ function App() {
   console.log("window.toolbar.visible", visible);
   //  document.domain="pruebachat--tecmonterreymxqa.myvtex.com";
   console.log("domino", document.domain);
-  let url=window.location.href="";
-  console.log("URL",url);
+  // let url=window.location.href;
+  // console.log("URL",url);
   return (
     <div >
       <Chatbot/>
