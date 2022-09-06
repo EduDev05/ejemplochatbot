@@ -20,6 +20,8 @@ function App() {
   console.log("domino", document.domain);
   // let url=window.location.href;
   // console.log("URL",url);
+  let agent = navigator.userAgent;
+  console.log("navigator.userAgent",agent);
   return (
     <div >
       <Chatbot/>
