@@ -4,7 +4,10 @@ import {Chatbot} from './components/Chatbot';
 // import './styles/index.css';
 import './styles/estilosg.css';
 
+
 function App() {
+
+  
   // window.addEventListener('message', (event) => {
   //   // Reject all messages except ones from https://parent.example.com
   //   if (event.origin !== 'https://pruebachat--tecmonterreymxqa.myvtex.com/') return;
