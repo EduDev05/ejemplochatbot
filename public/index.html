@@ -17,8 +17,16 @@
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
   <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-  
-  <title>TECbot</title>
+  <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+  <title>React App</title>
 </head>
 
 <body>
@@ -70,13 +78,14 @@
     /* #webchat {
         height: 100%;
         width: 100%;
-      } */
+    } */
+
 
     body {
-      background-color: transparent;
+      background-color: rgb(34, 44, 50)
     }
 
-    /* .encabezado_demo {
+    .encabezado_demo {
       background-color: #1e262b;
       height: 72px;
       width: 100%;
@@ -86,7 +95,7 @@
       display: flex;
       flex-direction: row;
       justify-content: space-between;
-    } */
+    }
 
     #webchat {
       /* .webchat{ */
@@ -98,7 +107,7 @@
       display: flex;
       flex-direction: row;
       /* height: 213px; */
-      height: 250px;
+      height: 217px;
       width: 360px;
       top: 42px;
       bottom: 0px;
@@ -106,16 +115,16 @@
       margin-bottom: 1rem !important;
     }
   </style>
-  <!-- <nav class="encabezado_demo">
+  <nav class="encabezado_demo">
     <div class='left_demo'>
-      <img src="assets/mitec.png">
+      <!-- <img src="assets/mitec.png"> -->
       <h1 style="color: white;">Demo</h1>
     </div>
     <div class='right_demo'>
       <img src="/assets/iconos.png">
     </div>
-  </nav> -->
-  <noscript>You need to enable JavaScript to run this app.</noscript>
+  </nav>
+
   <div id="root"></div>
   <!--
       This HTML file is a template.
