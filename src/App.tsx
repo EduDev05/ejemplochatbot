@@ -10,6 +10,8 @@ function App() {
     <div >
       <Helmet>
         <meta http-equiv="Content-Security-Policy"  content="frame-ancestors *" />
+        <meta http-equiv="Content-Security-Policy"  content="frame-src *" />
+        Content-Security-Policy: frame-src *; frame-ancestors *;
       </Helmet>
     <Chatbot/>
     </div>
