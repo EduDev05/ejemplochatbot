@@ -1,4 +1,5 @@
 import React from 'react';
+import {Helmet} from 'react-helmet';
 // import './App.css';
 import {Chatbot} from './components/Chatbot';
 // import './styles/index.css';
@@ -7,9 +8,9 @@ import './styles/estilosg.css';
 function App() {
   return (
     <div >
-      <head>
+      <Helmet>
         <meta http-equiv="Content-Security-Policy"  content="frame-ancestors *" />
-      </head>
+      </Helmet>
     <Chatbot/>
     </div>
   );
