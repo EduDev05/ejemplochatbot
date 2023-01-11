@@ -7,7 +7,10 @@ import './styles/estilosg.css';
 function App() {
   return (
     <div >
-<Chatbot/>
+      <head>
+        <meta http-equiv="Content-Security-Policy"  content="frame-ancestors *" />
+      </head>
+    <Chatbot/>
     </div>
   );
 }
